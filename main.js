@@ -67,7 +67,9 @@ function firstPunctuationIndex(str){
 // }
 
 function getPlace(listOfScores, newScore){
-  
+    if(newScore > listOfScores){
+        return 'You are in first  place'
+    }
 }
 
 
